@@ -1,11 +1,11 @@
 # SFDX  App
 
 ## Dev, Build and Test
-sfdx force:org:create -s -f config/project-scratch-def.json -a scratch-org-alias;
-sfdx force:source:push;
-sfdx force:user:permset:assign -n Geolocation
-sfdx force:data:tree:import --sobjecttreefiles data/Account.json;
-sfdx force:org:open;
+* sfdx force:org:create -s -f config/project-scratch-def.json -a scratch-org-alias;
+* sfdx force:source:push;
+* sfdx force:user:permset:assign -n Geolocation
+* sfdx force:data:tree:import --sobjecttreefiles data/Account.json;
+* sfdx force:org:open;
 
 ## Resources
 
