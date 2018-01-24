@@ -8,7 +8,9 @@
             "Name": "Hyatt",
             "Location__Latitude__s": 37.794157,
             "Location__Longitude__s": -122.396311,
-            "foobar__c": false
+            "Contacts": {
+                "records": []
+            }
         },
         {
             "attributes": {
@@ -18,7 +20,9 @@
             "Name": "Hilton Union Square",
             "Location__Latitude__s": 37.786164,
             "Location__Longitude__s": -122.410137,
-            "foobar__c": false
+            "Contacts": {
+                "records": []
+            }
         },
         {
             "attributes": {
@@ -28,7 +32,25 @@
             "Name": "Marriott Marquis",
             "Location__Latitude__s": 37.785143,
             "Location__Longitude__s": -122.403405,
-            "foobar__c": false
+            "Contacts": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef1"
+                        },
+                        "FirstName": "dan",
+                        "LastName": "shahin"
+                    },
+                    {
+                        "attributes": {
+                            "type": "Contact",
+                            "referenceId": "ContactRef2"
+                        },
+                        "LastName": "foobar"
+                    }
+                ]
+            }
         }
     ]
 }
