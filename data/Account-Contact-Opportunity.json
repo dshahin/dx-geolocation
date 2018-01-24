@@ -47,7 +47,8 @@
                         },
                         "Name": "test opp",
                         "Amount": 1000,
-                        "StageName": "Prospecting"
+                        "StageName": "Prospecting",
+                        "CloseDate": "2018-01-31"
                     }
                 ]
             },
